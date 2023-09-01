@@ -639,15 +639,9 @@ padding-top: 10px;
 .filters{
     justify-content: center;
     height: 100%;
-<<<<<<< HEAD
-    width: 100vw;}
+    width: 100%;}
   
 .search{
-=======
-    width: 100vw;
-    }
-    .search{
->>>>>>> 8d4d206f396207f95531463dba0c62b563a2af2d
         padding:5px 7px ;
         height: 100%;
       
@@ -704,8 +698,4 @@ display: flex;
 flex-wrap: wrap;
 padding-left: 15px;
 padding-top: 10px;
-<<<<<<< HEAD
-}}}
-=======
 }}
->>>>>>> 8d4d206f396207f95531463dba0c62b563a2af2d
