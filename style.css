@@ -658,10 +658,10 @@ padding-top: 10px;
     margin-top: 20px;
     width: auto;
     display:flex;
-    flex-direction: wrap;
+    
     overflow-x: scroll;}
 .product-container{
-    min-width: 100%;
+    min-width: 70%;
  }
 .footer-middle{
     display: flex;
