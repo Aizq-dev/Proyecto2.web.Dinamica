@@ -288,7 +288,8 @@ padding-right: 15px;
   height: 45px;
   width: 80%;
  background-color: var(--hoover);
- border: 2px solid #e2e3e4
+ border: 2px solid #e2e3e4;
+ transition: 0.4s;
 }
 .search > div input{
 padding-left: 7px;
@@ -309,7 +310,7 @@ background-color: transparent;
 .search div:hover{
     border: 2px solid var(--primary);
     width: 100%;
-    transition: 0.4s;
+    
 }
 .seller{
     width: 100%;
@@ -335,7 +336,7 @@ background-color: transparent;
     padding-bottom: 20px;
     width: 35%;
     border-top: 3px solid var(--borders);
-    
+  
 
 }
 .product-container a{
@@ -343,12 +344,18 @@ background-color: transparent;
     border-bottom: 2px solid var(--borders);
     margin-bottom: 10px;
     position:relative;
+
   
 }
-.product-container img{
+.product-container figure{
     height: 30vh;
     width: 100%;
-    
+}
+.product-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: 0.6s; 
 }
 .product-container a div{
 height: 55px;
@@ -369,7 +376,7 @@ text-decoration: overline underline;
 }
 .product-container img:hover{
     transform: scale(1.1);
-     transition: 0.6s; 
+   
 }
 
 .name-product{

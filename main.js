@@ -95,7 +95,7 @@ const sellerFilter = document.querySelector('#seller')
 
 const productTemplates =(product) => {
     const template =  ` <article class="product-container">
-    <a href="#"><div><spna class="new">NUEVO</spna></div><img src='${product.image}'/>
+    <a href="#"><div><spna class="new">NUEVO</spna></div><figure><img src='${product.image}'/></figure>
     </a>
     <div class="name-product">
     <a href="#"><h5>${product.name}</h5></a>
